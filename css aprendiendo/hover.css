@@ -1,0 +1,9 @@
+.caja1{
+    padding: 20px;
+    background-color: blue;
+    transition: background 0.2s;
+}
+.caja1:hover{
+    padding: 20px;
+    background-color: slateblue;
+}

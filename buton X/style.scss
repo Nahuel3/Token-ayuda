@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: grey;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido-boton{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.boton{
+   width: 50px;
+   height: 10px;
+   background-color: rgb(255, 255, 255);  
+   transition: 0.4s;
+}
+.boton::before,
+.boton::after{
+    content: "";
+    position: absolute;
+    
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 10px;
+}
+.boton::before{
+    transform: translateY(-16px);
+}
+.boton::after{
+    transform: translateY(+16px);
+}
+.contenido-boton.active .boton{
+    transform: translateX(-61px);
+    background: transparent;
+}
+.contenido-boton.active .boton::before{
+    transform: rotate(45deg) translate(43.4px, -43.4px);
+}
+.contenido-boton.active .boton::after{
+    transform: rotate(-45deg) translate(43.4px, 43.4px);
+}

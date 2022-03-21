@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+:root {
+  --bg-nav:#36007c;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.responsive-menu {
+  display: none;
+}
+
+.menu-responsive li a {
+  display: none;
+}
+
+.icon {
+  display: none;
+  width: 42px;
+  background-repeat: no-repeat;
+  height: 42px;
+  background-color: transparent;
+  border: none;
+  background-image: url("../assets/hamburger.png");
+  background-size: 100%;
+}
+
+.active {
+  color: #d8d8d8;
+}
+
+header {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, white), color-stop(0%, white), color-stop(50%, white), to(#aa6ff8));
+  background: linear-gradient(90deg, #020024 0%, white 0%, white 0%, white 50%, #aa6ff8 100%);
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: relative;
+  top: -2px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header nav {
+  font-family: "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: #36007c;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li,
+header nav ul a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 1.2rem;
+}
+
+header nav ul a:hover {
+  color: #d8d8d8;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+header nav ul button {
+  margin: 1.2rem;
+  width: 110px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+header nav ul button:nth-last-child(1) {
+  background-color: #fff676;
+}
+
+header nav ul button:nth-last-child(1):hover {
+  background-color: #fff022;
+  -webkit-transition: 150ms;
+  transition: 150ms;
+}
+
+header nav ul button:nth-last-child(2) {
+  background-color: #ffbf76;
+}
+
+header nav ul button:nth-last-child(2):hover {
+  -webkit-transition: 150ms;
+  transition: 150ms;
+  background-color: #ffa846;
+}
+
+header nav ul button:hover {
+  cursor: pointer;
+}
+
+header .header-into {
+  height: calc(100vh - 60px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+header .header-into h1 {
+  padding: 1.5rem;
+  margin-top: -70px;
+  width: 420px;
+}
+
+header svg {
+  position: absolute;
+  top: 27vh;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    position: fixed;
+  }
+  header nav ul:nth-child(1) {
+    display: none;
+  }
+  header nav .responsive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header nav .icon {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-right: 15px;
+    display: block;
+  }
+  header nav .icon:hover {
+    cursor: pointer;
+    -webkit-animation: rotate 1.3s linear;
+            animation: rotate 1.3s linear;
+  }
+  @-webkit-keyframes rotate {
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    50% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+  @keyframes rotate {
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    50% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+  header .responsive-menu {
+    display: block;
+    position: fixed;
+    right: -320px;
+    top: 60px;
+    width: 320px;
+    height: 93.2vh;
+    background: #36007c;
+    -webkit-transition: 320ms;
+    transition: 320ms;
+    margin-top: -1px;
+  }
+  header .responsive-menu li {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    list-style: none;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+  }
+  header .responsive-menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  header .hide {
+    right: 0;
+  }
+  header .show {
+    right: 0;
+  }
+}
+
+h2 {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+/*  
+.caja{
+width: 450px;
+height: 450px;
+margin: 25px;
+padding: 25px;
+}
+/*  
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: solid red 2px;
+    object-position: right;
+}
+*/
+.caja{
+width: 200px;
+height: 300px;
+margin: 40px;
+border: solid 5px red;
+background-color: pink;
+
+}

@@ -1,0 +1,430 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.contenedor {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: black;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: 1;
+}
+
+.navh1 {
+  text-align: center;
+  display: inline;
+  color: white;
+  position: absolute;
+  left: 0;
+  padding-left: 10px;
+}
+
+.navtext {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+li {
+  display: inline;
+}
+
+header {
+  width: 100%;
+  background: -webkit-gradient(linear, right top, left top, color-stop(20%, white), color-stop(50%, #a09c9c), to(#faf9f9));
+  background: linear-gradient(to left, white 20%, #a09c9c 50%, #faf9f9 100%);
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.p1 {
+  color: black;
+}
+
+section .logo {
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-image: url(https://i2.wp.com/tragonesperofinos.mx/wp-content/uploads/2021/01/hamburgesas.jpg?fit=1920%2C1280&ssl=1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section h2 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  width: 500px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.imagenes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
+  padding: 20px;
+}
+
+.imagenes h1 {
+  text-align: center;
+}
+
+.imgrid {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.span-precio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 35px;
+  color: #cf0844;
+}
+
+.intro-menu {
+  text-align: center;
+  font-size: 30px;
+}
+
+.menudespegable {
+  background-color: #3b3636;
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.menudespegable i {
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+  color: white;
+}
+
+.menudespegable h4 {
+  display: inline;
+  padding-left: 20px;
+  color: white;
+}
+
+.imgdespegable {
+  width: 250px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mostrar {
+  display: block;
+}
+
+.carta {
+  width: 100%;
+  height: 200px;
+  background-color: red;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.antes-opiniones {
+  text-align: center;
+}
+
+.antes-opiniones h3 {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.opiniones-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.opiniones-main h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.opiniones-main p {
+  color: grey;
+  text-align: center;
+}
+
+.opiniones-main .img-personas {
+  height: 100px;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+}
+
+i {
+  font-size: 20px;
+}
+
+.opinion-1 {
+  margin: 10px;
+}
+
+.opinion-2 {
+  margin: 10px;
+}
+
+.opinion-3 {
+  margin: 10px;
+}
+
+.opinion-4 {
+  margin: 10px;
+}
+
+.google-maps {
+  padding: 50px;
+}
+
+.google-maps h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.google-maps .parte-ubicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.google-maps p {
+  text-align: center;
+  font-size: 13px;
+  color: grey;
+}
+
+.google-maps .span {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.google-maps .barra-maps {
+  height: 1px;
+  width: 200px;
+  color: #f10303;
+}
+
+.lugar-historia {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(560px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  padding: 30px;
+  text-align: center;
+}
+
+.lugar-historia img {
+  width: 350px;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 200px;
+}
+
+.lugar-historia h4 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.lugar-historia p {
+  text-align: center;
+  width: 250px;
+  font-size: 20px;
+  color: grey;
+}
+
+.lugar-historia .text-lugar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  background-color: black;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  margin: 5px;
+  font-size: 11px;
+}
+
+footer h4 {
+  color: white;
+  margin: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+footer .lorem {
+  margin: 5px;
+  text-align: justify;
+}
+
+footer a {
+  color: white;
+  margin: 5px;
+  font-size: 15px;
+}
+
+footer h4::first-letter {
+  font-size: 35px;
+}
+
+.navtext:hover {
+  background-color: grey;
+  border-radius: 8px;
+  -webkit-box-shadow: white 2px 2px 10px 10px;
+          box-shadow: white 2px 2px 10px 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .imagenes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .logo {
+    height: 100%;
+  }
+  .opiniones-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  iframe {
+    height: 200px;
+    width: 300px;
+  }
+  .lugar-historia {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */

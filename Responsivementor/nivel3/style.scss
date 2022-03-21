@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+header{
+     border-bottom: 1px solid rgb(243, 241, 241);
+   
+   
+    nav{
+        display: flex;      
+        align-items: center;
+        justify-content: space-around;
+
+
+        .nav-arriba{
+        display: flex;
+        align-items: center;
+        height: 100px;
+
+        i{
+            display: none;
+            margin-right: 40px;
+            font-size: 40px
+        }
+
+          h1{
+              font-size: 40px;
+          }
+
+         li{
+             list-style: none;
+             display: inline;
+             padding-left: 20px;
+             color: rgb(163, 161, 161);
+             font-size: 15px;
+             
+         }
+        }
+        .nav-abajo{
+            display: flex;
+            align-items: center;
+            img{
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                margin-right: 50px;
+            }
+            i{
+                font-size: 25px;
+                color: rgb(151, 149, 149);
+                margin-right: 25px;
+                
+            }
+        }
+    }
+
+
+    //Responsive NAV
+
+    .responsive{
+          
+        display: none;
+        
+    }
+
+    .desplegar{
+    
+    background-color: rgb(172, 172, 172);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+    margin-bottom: 20px;      
+    
+        li{
+            list-style: none;
+            margin-left: 50px;
+           
+            
+        }                                
+    }
+  
+}
+
+
+
+.backgrounds{
+    opacity: 0.2;
+}
+
+main{
+  
+    
+    .general{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        height: calc(100vh - 120px);
+        
+        flex-direction: row;
+     
+
+    .main-arriba{    
+       
+
+        .persona{
+            width: 450px;
+            height: 450px;
+            object-fit: cover;
+            border-radius: 25px;
+            
+        }
+        
+
+        .galeria{
+            width: 110px;
+            object-fit: cover;
+            border-radius: 25px;
+            height: 100px;        
+        }
+        .part-galerias{
+            display: flex;
+            display: none;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .galerias{
+                width: 80px;
+                height: 80px;
+                object-fit: cover;
+                border-radius: 25px;
+                position: relative;
+                left: 550px;
+                margin-left: 25px;
+                bottom: 30px;
+            }
+        }
+        .aparecer{
+            display: inline;
+        }
+        .persona2{
+            display: none;
+        }
+        .mostrarse{
+            display: inline;
+            width: 550px;
+            height: 550px;
+            object-fit: cover;
+            border-radius: 25px;
+            position: relative;
+            left: 60px;
+            top: 40px;
+            z-index: 1;
+        }
+        
+        i{
+            
+            display: none;
+        }
+        .x{
+            position: relative;
+            bottom: 520px;
+            left: 45px;
+            display: inline;
+        }
+        
+
+    }
+    .main-abajo{
+       
+        h2{
+            color: orange;
+            font-size: 16px;
+        }
+        h3{
+            font-size: 45px;
+            width: 500px;
+            padding-top: 20px;
+        }
+        p{
+            color: grey;
+            width: 500px;
+            padding-top: 20px;
+        }
+        h4{
+            padding-top: 20px;
+            font-size: 30px;
+        }
+        span{
+            color: rgb(255, 115, 0);
+            font-size: 15px;
+            background-color: rgb(243, 243, 243);
+            position: relative;
+            bottom: 5px;
+        }
+        h5{
+            padding-top: 10px;
+            color: rgb(196, 194, 194);
+            
+        }
+
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+
+        button{
+            color: orange;
+            background-color: rgb(243, 243, 243);
+            width: 50px;
+            font-size: 25px;
+        }
+        h6{
+            font-size: 25px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        input{
+            width: 300px;
+            height: 45px;
+            background-color: rgb(255, 164, 61);
+            color: white;
+            border-radius: 10px;
+            border: none;
+            margin-left: 20px;
+        }
+    }
+
+  }  
+
+}
+
+@media screen and (max-width:1000px){
+
+    .backgrounds{
+        opacity: 1;
+    }
+.aparecer{
+    display: none;
+}
+    main{
+        
+        .general{
+            display: flex;
+            flex-direction: column;
+           height: 100%;
+        .main-arriba{
+           .x{
+               display: none;
+           }
+           .mostrarse{
+               display: none;
+           }
+           .aparecer{
+               display: none;
+           }
+            .persona{               
+                width:100%;
+                margin-bottom: 25px;
+                 border-radius: 0%;
+            }
+        } 
+        .part-galeria{
+            display: none;
+        }
+        .main-abajo{
+            h4{
+                display: inline;
+            }
+            h5{
+                display: inline;
+                position: relative;
+                bottom: 5px;
+                padding-left: 100px;
+            }
+        }
+        section{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+
+        
+        }
+    }
+
+ }
+}
+
+@media screen and (max-width:700px){
+    header{
+        nav{          
+           .nav-arriba{
+                ul{
+                       li{
+                        display: none;           
+                        }
+                }
+
+                i{
+                    display: inline;
+                }
+            }               
+        }
+    }
+}

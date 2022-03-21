@@ -1,0 +1,58 @@
+/* 
+div{
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+    background-color: grey;
+}
+h2{
+    font-size: 24px;
+}
+h1{
+    font-size: 24px;
+}
+ */
+ *{
+     padding: 0%;
+     margin: 0%;
+ }
+nav {
+    background-color: rgb(0, 0, 0);
+
+ }
+li{
+ display: inline-block;
+  padding: 5px;
+  margin: 5px;
+
+ }
+ nav a{
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+ }
+ nav i{
+     color: rgb(255, 255, 255);
+     text-align: center;
+     padding: 10px;
+ }
+ .caja2{
+     display: none;
+ }
+
+header .background{
+    object-fit: cover ;
+    width: 100vw;
+    height: 100vh;
+    border: solid rgb(25, 0, 255) 2px;
+    background-image: url(img/boca-juniors-campeon-de-la___IU0fmBKZB_0x750__2.jpg);
+    background-repeat: no-repeat;
+ }
+ header h1{
+     color: yellow;
+     background-color: blue;
+     text-align: center;
+ }
+ main h2{
+     background-color: green;
+     color: black;
+ }

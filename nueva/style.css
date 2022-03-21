@@ -1,0 +1,200 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.general {
+  height: 100vh;
+  width: 100%;
+}
+
+.general nav {
+  width: 100%;
+  height: 65px;
+  border-bottom: solid 4px rgba(204, 191, 191, 0.281);
+}
+
+.general nav .parteArriba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.general nav .parteArriba input {
+  height: 30px;
+  border: 4px solid #e2e2e2;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.general nav .parteArriba input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.general nav .parteArriba input:-ms-input-placeholder {
+  text-align: center;
+}
+
+.general nav .parteArriba input::-ms-input-placeholder {
+  text-align: center;
+}
+
+.general nav .parteArriba input::placeholder {
+  text-align: center;
+}
+
+.general nav .parteArriba i {
+  font-size: 25px;
+  margin: 15px;
+}
+
+.general nav .parteArriba img {
+  margin-left: 20px;
+}
+
+.general section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 150px;
+  width: 100%;
+}
+
+.general section .historias {
+  border: solid 2px #c9c8c8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.general section .historias h1 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.general section .historias img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 15px;
+  border: solid 2px #a2ff16;
+  border-radius: 50%;
+}
+
+.general main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.general main .Contenido {
+  height: 600px;
+  width: 590px;
+  border: 2px solid #c9c8c8;
+}
+
+.general main .Contenido .nombre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 15px;
+}
+
+.general main .Contenido .nombre img {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #a2ff16;
+  border-radius: 50%;
+}
+
+.general main .Contenido .nombre h1 {
+  font-size: 20px;
+  padding-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.general main .Contenido .parte-main img {
+  height: 440px;
+  width: 591px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.general main .Contenido .parte-comentario {
+  margin: 15px;
+}
+
+.general main .Contenido .parte-comentario i {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.general main .Contenido .parte-comentario span {
+  color: grey;
+  font-size: 15px;
+}
+
+.general footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+}
+
+.general footer img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 15px;
+  border: solid 2px #a2ff16;
+  border-radius: 50%;
+}
+
+.general footer i {
+  margin: 20px;
+  font-size: 35px;
+}
+/*# sourceMappingURL=style.css.map */

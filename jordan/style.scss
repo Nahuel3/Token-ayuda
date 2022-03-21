@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jordan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(38,49,69);
+    width :300px;
+    height: 400px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+span{
+    font-size: 20px;
+    color: rgb(0, 255, 0);
+}
+img{
+    width: 300px;
+    height: 200px;
+    transition: 0.4s;
+}
+
+p{
+ color: rgb(255, 255, 255);
+ font-size: 20px;
+ 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    
+    background-color: rgb(255, 174, 0);
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+img:hover{
+  transform: translate(-30px,-100px) rotate(-20deg);
+  
+}

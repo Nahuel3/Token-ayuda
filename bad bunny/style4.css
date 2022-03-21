@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    display: flex;
+    background-color: #885d5d8e;
+}
+.youtube{ 
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    justify-content: right;
+}
+main{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    padding: 25px;
+    margin: 15px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: solid 6px black;
+    margin-left: 180px;
+}
+footer{
+    background: grey;
+    padding: 25px;
+    font-size: 30px;
+}

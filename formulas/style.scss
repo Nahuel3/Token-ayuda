@@ -1,0 +1,65 @@
+
+    $bg : grey;
+    $fbg : rgb(125, 125, 207);
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    background-color:  $bg;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+background-color: $fbg;
+width: 450px;
+height: 450px;
+
+}
+h1{
+    text-align: center;
+    margin: 15px;
+}
+input{
+    margin: 30px;
+    border: none;
+    border-radius: 8px;
+}
+.text{
+    height: 40px;
+    width: 380px;
+    text-align: center;
+   
+}
+.email{
+    height: 40px;
+    width: 380px;
+    text-align: center;
+  
+}
+
+.password{
+    height: 40px;
+    width: 380px;
+    text-align: center;
+   
+ }
+
+ .bot{
+display: flex;
+justify-content: center;
+align-items: center;
+ }
+ .button{
+    height: 40px;
+    width: 180px;
+  
+ }
+
+
+ input::placeholder{
+    color: rgb(0, 0, 0);
+ }

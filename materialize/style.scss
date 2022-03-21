@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+// MENU DE NAVEGACION
+header{
+    
+    nav{
+        background-color: rgb(26, 26, 26);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        .nav-izquierda{
+            display: flex;
+            align-items: center;
+            h1{
+                font-size: 20px;
+                color: rgb(103,117,159);
+                margin: 0%;
+            }
+            img{
+                width: 45px;
+                height: 45px;
+                margin-right: 10px;
+            }
+        }
+        .nav-derecha{
+            a{
+                font-size: 20px;
+                padding-left: 15px;
+                color: rgb(95, 94, 94);
+            }
+        }
+       
+    }
+}
+
+
+//PARTE DE REDES Y TOKEN
+main{
+    background-image: url(https://cryptohumanworld.com/images/background/hakkav_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+   
+    .general{
+        height: 45vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .logo{
+            background-image: url(https://cryptohumanworld.com/images/logo/hworld.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 290px;
+            height: 60px;
+            position: relative;
+            top: 30px;
+        }
+
+        .venta{
+            position: relative;
+            top: 80px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            input{
+                width: 200px;
+                height: 45px;
+                background-color: rgb(159,150,138);
+                color: white;
+            }
+            p{
+                color: white;
+                font-size: 20px;
+                padding-left: 15px;
+            }
+        }
+    }
+
+    .redes{
+        position: relative;
+        top: 120px;
+        background-color: rgb(26,32,44);
+        width: 260px;
+        height: 70px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a{
+           color: white;
+           font-size: 35px;
+           margin: 10px;
+        }
+    }
+
+    .metamask{
+        position: relative;
+        top: 160px;
+        background-color: rgba(26, 32, 44, 0.685);
+        width: 355px;
+        height: 45px;
+        border-radius: 20px;
+        input{
+           border-bottom: none !important ;
+        }
+
+        input::placeholder{
+            padding-left: 10px;
+            font-size: 15px;
+        }
+    }
+}
+
+//PARTE CON VIDEO e introduccion al juego
+section{
+    background-color: rgb(28,28,28);
+     height: 100%; 
+   
+    //BARRA ESTETICA DONDE VA EL DISCORD
+    .barra{
+        width: 595px;
+        height: 4px;
+        background-color: rgb(65, 65, 65);     
+    }
+    .barra2{
+        width: 595px;
+        height: 4px;
+        background-color: rgb(65, 65, 65);
+      
+    }
+
+   .section-general{
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+    .section-texto{
+               
+        h2{
+            color: #c99666;
+            margin: 0;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        } 
+    
+        p{
+            width: 600px;
+            color: white;
+            letter-spacing: 3px;
+            text-align: justify;
+            font-size: 13px;
+            line-height: 28px;
+            padding-bottom: 20px;
+        }
+    
+    }
+  
+    .section-discord{
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         width: 90%;
+
+         p{
+            
+             font-size: 16px;
+             color: grey;
+             letter-spacing: 0px;
+             padding-bottom: 20px;
+             padding-top: 20px;
+         }
+
+         input{
+           position: relative;
+           right: 170px;
+            width: 250px;
+            height: 40px;
+         }
+    }
+
+    .section-video{
+
+        iframe{
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            position: relative;
+            right: 100px;
+            border: solid 8px rgb(82, 82, 82);
+        }
+
+       }       
+
+   }
+}
+//PATROCINIO DE LA PAGINA WEB (PANCAKE)
+
+.patrocinadores{
+    background-color: #282e36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    img{
+        max-width: 100%;
+        height: 80px;
+        margin: 25px;
+    }
+}
+
+.carousel-general{
+    background-image: linear-gradient(
+    360deg,#404148,#0a001a,#000c17);
+    display: flex;
+    align-items: center;
+    
+
+    h4{
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        letter-spacing: 5px;
+        margin: 0%;
+        margin-top: 20px;
+    }
+    .carousel-item{
+        img{
+            height: 300px;
+            
+        }
+    }
+}
+
+.token{
+    background-image: linear-gradient(
+    360deg,#404148,#0a001a,#000c17);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+
+   h4{
+       color: white;
+       font-style: italic;
+       font-size: 62px;
+   }
+    img{
+        position: relative;
+        bottom: 90px;
+        width: auto;
+        margin-top: 30px;
+    }
+}
+
+//presentacion de la gente
+
+//PARTE ANTES DE LAS CARTAS
+.integrantes-general{
+    background-color: rgb(21, 24, 29);
+    display: flex;
+    justify-content: space-evenly;   
+    flex-direction: column;
+    height: auto;
+
+    .texto-integrantes{     
+        h5{
+            color: white;          
+            font-size: 45px;
+            margin-left: 5%;
+            margin-top: 3%;
+        }
+        p{
+            color: cyan;
+            margin: 0%;
+            font-size: 15px;
+            margin-left: 5%;
+            
+        }
+        
+    }
+
+  //FINAL DEL PROJECT TEAM TEXTO
+
+    // COMIENZO DE LAS FOTOS Y DE LAS PERSONAS
+    .cartas{
+        display: flex;
+        justify-content: center;      
+        flex-wrap: wrap;
+
+        .integrantes{
+           margin: 20px;
+           background-color: rgb(40,46,54);
+           box-shadow: rgb(40,46,54) 8px 13px 0PX 6PX;  
+           width: 260px;
+           margin-bottom: 60px;
+
+            img{
+                position: relative;
+                left: 5px;
+                width: 250px;
+                height: 250px;
+                border-radius: 50%;
+                box-shadow: cyan 8px 8px 4px 4px;
+                object-fit: cover;
+            }
+
+            h5{
+                color: white;
+            }
+            p{
+                color: cyan;
+                text-align: center;
+            }
+        }
+    }
+}
+
+//responsive
+
+@media screen and (max-width:1115px) {
+    .token{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:951px) {
+     .barra{
+        display: none;
+     }
+
+    .barra2{
+        display: none;
+    }
+    
+    section{
+        .section-general{
+            
+            .section-texto{
+               width: 100%;
+
+                h2{
+                    width: 100%;
+                    text-align: center; 
+                }
+
+                p{
+                    width: 100%;
+                    font-size: 14px;
+                    text-align: center; 
+                }
+            }
+            .section-discord{
+                display: flex;
+                flex-direction: column;
+               
+                input{
+                    left: 0px;
+                    position: relative;
+                    width: 90%;
+                }
+                
+            }
+            iframe{
+               position: relative;
+               left: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:710px){
+    section{
+        .section-general{
+           
+
+            .section-video{
+                iframe{
+                    width: 430px;
+                }
+            }
+        }
+    }
+}

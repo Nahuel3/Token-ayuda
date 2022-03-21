@@ -1,0 +1,240 @@
+*{
+    padding:0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .background{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+header h1, .subtitulo{
+font-size: 28px;
+margin-left: 150px;
+color:rgb(0, 0, 0);
+
+}
+header h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+header p{
+    text-anchor: middle;
+    font-size: 22px;
+}
+
+main .discografia{
+    width: auto;
+    height:auto;
+    
+}
+
+
+main h2,ul,li{
+margin-top:15px;
+margin-left: 30px;
+text-decoration: none;
+list-style: none;
+
+}
+
+main h2{
+    font-size: 34px;
+    text-decoration: underline;
+}
+main .img {
+    top:100%;
+    position: absolute;
+    right: 0;
+}
+
+.bibliografia{
+    display: flex;
+    color: black;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 150px;
+    height: 310px;
+}
+
+section h3{
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+section p{
+    padding:0px 40px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+section audio{
+
+    margin: 40px auto -30px auto;
+}
+
+.informacion a{
+
+    text-decoration: none;
+}
+.informacion{
+
+    font-size: 22px;
+    text-align: center;
+    margin-top: 110px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h5{
+    text-align: center;
+    font-size: 38px;
+    margin: 60px 0px 60px 0px;
+}
+.galeria{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px ;
+    column-gap: 30px;
+    row-gap: 30px;
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.galeria .img1{
+
+    background-image: url("img/g1.jpg");
+    background-size: 300px;
+    border: solid rgb(0, 0, 0) 4px;
+    
+}
+.galeria .img2{
+    background-image: url("img/g2.jpg");
+    background-size: 460px;
+    background-position: 300px 0;
+    border: solid rgb(0, 0, 0) 4px;
+    
+}
+.galeria .img3{
+    background-image: url("img/g3.jpg");
+    background-size: 500px;
+    border: solid rgb(0, 0, 0) 4px;
+}
+.galeria .img4{
+    background-image: url("img/g4.jpg");
+    background-size: 540px;
+    border: solid rgb(0, 0, 0) 4px;
+}
+.galeria .img5{
+    background-image: url("img/g5.jpg");
+    background-size: 700px;
+    background-repeat: none;
+    background-position: 500px 0;
+    border: solid rgb(0, 0, 0) 4px;
+}
+.galeria .img6{
+    background-image: url("img/g6.jpg");
+    background-size: 600px;
+    border: solid rgb(0, 0, 0) 4px;
+}
+
+footer{
+    justify-content: center;
+    margin-top: 5px;
+    color: white;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+}
+.integrante{
+    color: rgb(0, 0, 0);
+text-align: left;
+
+}
+section ul,li{
+    position: absolute right 0%;
+    width: 30%;
+    height: 30%;
+}
+section p{
+    font-size: 100%;
+}
+.temas h3{
+    margin: 15px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+  padding: 15px;
+}
+.temas a{
+    color: crimson;
+   
+}
+.cont .float{
+    float: right;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    height: 250px;
+    
+}
+.cont{
+    border: solid 4px rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 50px;
+    background: grey;
+    width: 850px;
+    height: 550px;
+    
+}
+h4::first-letter{
+ font-size: 70px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+}
+.cont p{
+    padding-left: 25px;
+}
+.cont p::first-letter{
+    font-size: 30px;
+    
+   }
+   .informacion a{
+       display: inline;
+   }
+  .Redes{
+text-align: center;
+font-size: 25px;
+color: rgb(241, 0, 121);
+padding: 15px;
+   }
+.icono1{
+    color: blue;
+}
+.icono2{
+    color: green;
+}

@@ -1,0 +1,19 @@
+.cont{
+    border: solid 4px red;
+    margin: auto;
+    margin-top: 50px;
+    background: grey;
+    width: 50%;
+}
+.cont img{
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+    padding: 10px;
+    margin: 0px;
+    
+}
+.cont {
+    
+    width: 50%;
+}

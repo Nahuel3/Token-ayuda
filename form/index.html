@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/871bfce724.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+    <form>
+      <div id="form" class="form" onsubmit=" return validar();">
+        <div class="parte-form">
+          <h1>Logearse</h1>
+         
+        </div>
+        <i class="fas fa-user">
+          <input
+            id="usuario"
+            class="usuario"
+            type="text"
+            placeholder="Usuario"
+          />
+        </i>
+        <i class="fas fa-lock">
+          <input id="pass" class="pass" type="text" placeholder="Contraseña" />
+        </i>
+
+        <input class="register" type="submit" value="Ingresar" />
+
+        <div class="parte-final">
+          <input class="check" type="checkbox" />
+          <a id="boton" href="#">Crear cuenta </a>
+        </div>
+      </div>
+    </form>
+
+    <form class="form2">
+      <div id="farm" class="farm" onsubmit=" return validar();">
+        <div class="parte-form">
+          <h1>Formulario De Registro</h1>
+          <img
+            class="sobre"
+            src="https://media.istockphoto.com/vectors/illustration-of-an-email-vector-id1140103155?k=6&m=1140103155&s=612x612&w=0&h=_7J312CvVCSpn8I2rf0NjC3fTlJzIl3-MxWl1Uhgs84="
+          />
+        </div>
+        <i class="fas fa-user">
+          <input
+            id="usuarios"
+            class="usuarios"
+            type="texts"
+            placeholder="Usuario"
+          />
+        </i>
+        <i class="fas fa-lock">
+          <input id="pass" class="pass" type="text" placeholder="Contraseña" />
+        </i>
+        <i class="fas fa-at">
+          <input id="email" class="email" type="text" placeholder="Email" />
+        </i> 
+        <input class="register" type="submit" value="Registrarse" />
+
+        <div class="parte-final">
+          <input class="check" type="checkbox"/>
+          <a id="boton2" href="#">Ya tengo cuenta </a>
+        </div>
+      </div>
+    </form>
+  </main>
+  
+    <script src="i.js"></script>
+  </body>
+</html>

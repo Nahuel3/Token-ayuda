@@ -1,0 +1,78 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  background-color: grey;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenido-boton {
+  height: 80px;
+  width: 80px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boton {
+  width: 50px;
+  height: 10px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.boton::before,
+.boton::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 50px;
+  height: 10px;
+}
+
+.boton::before {
+  -webkit-transform: translateY(-16px);
+          transform: translateY(-16px);
+}
+
+.boton::after {
+  -webkit-transform: translateY(16px);
+          transform: translateY(16px);
+}
+
+.contenido-boton.active .boton {
+  -webkit-transform: translateX(-61px);
+          transform: translateX(-61px);
+  background: transparent;
+}
+
+.contenido-boton.active .boton::before {
+  -webkit-transform: rotate(45deg) translate(43.4px, -43.4px);
+          transform: rotate(45deg) translate(43.4px, -43.4px);
+}
+
+.contenido-boton.active .boton::after {
+  -webkit-transform: rotate(-45deg) translate(43.4px, 43.4px);
+          transform: rotate(-45deg) translate(43.4px, 43.4px);
+}
+/*# sourceMappingURL=style.css.map */

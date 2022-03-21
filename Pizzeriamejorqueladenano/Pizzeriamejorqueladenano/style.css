@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-responsive{
+    display:none;
+}
+
+nav .image{
+    position: static;
+}
+nav{
+    z-index: 7;
+    top: 0;
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(152, 88, 255);
+}
+nav li,a{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav .navbar, span{
+    display:flex;
+    align-items: center;
+}
+
+nav .navbar span{
+ position:relative;
+ left:10px;
+ transition:250ms;
+}
+
+nav .navbar li a{
+    transition: 250ms;
+    font-size: 18px;
+    padding: 18px;
+}
+
+nav .navbar li a:hover{
+    color: rgb(255, 255, 255);
+}
+span:hover{
+    color: rgb(255, 255, 255);
+}
+
+header .cabecera{
+    display:flex;
+    z-index: -3;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/los-maestros-11.jpg);
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header .cabecera::before{
+    content:"";
+    position: absolute;
+    top: 110px;
+    left: 0;
+    background-color: rgba(31, 31, 31, 0.575);
+    width: 100%;
+    height: calc(100vh - 110px);
+}
+
+header .cabecera h1{
+    z-index: 5;
+    width: 100%;
+    color: white;
+    font-size: 11vw;
+
+}
+
+header .cabecera p{
+    display:flex;
+    z-index: 5;
+    color: white;
+    font-size: 5vw;
+}
+
+
+main{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 200px;
+}
+
+main div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+
+@media(max-width:720px){
+    nav .navbar{
+        display:none;
+    }
+
+    .navbar-responsive{
+        display:block;
+    }
+
+    .navbar-responsive button{
+        height: 68px;
+        width: 68px;
+        background-size: 100%;
+        background-color: transparent;
+        outline: none;
+        border: none;
+    }
+
+    .menu{
+        font-size: 48px;
+      }
+
+      .menu:hover{
+          cursor: pointer;
+      }
+
+      
+      .navbar-list{
+          width: 100%;
+          position: absolute;
+          left: 0;
+          top: 110px;
+          height: 390px;
+          background-color: rgb(152, 88, 255);
+          transition:350ms;
+        }
+        .hidden{
+            top: -390px;
+        }
+
+        .navbar-list{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        nav li, a{
+            padding-left: 5px;
+        }
+        .navbar-list li{
+            border-top: 1px solid black;
+            padding:20px 0px 20px 0px;
+            font-size: 20px;
+            display:flex;
+            align-items: center;
+
+        }
+
+        .navbar-list li a:hover{
+            color: white;
+
+        }
+
+        .navbar-list li:hover{
+            color: white;
+        }
+        .navbar-list li:nth-child(4){
+            border-bottom: 1px solid black;
+        }
+}

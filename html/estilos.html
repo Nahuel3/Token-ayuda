@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+    <style>
+        .parrafo-1{
+            color:red
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <p class="parrafo-1">Clases</p>
+    <p id="parrafo">Identificador a traves de un ID</p>
+    <p title="Este es un ejemplo del atributo tittle">Titulo con tooltip</p>
+    <p id="parrafo-2" data-ejemplo="Datos de ejemplo">Datos pasados en la etiqueta</p>
+
+
+    <script>
+    const p = document.getElementById('parrafo')
+    const parrafo2 = document.getElementById("parrafo-2")
+    console.log(p.textContent)
+    console.log(parrafo2.dataset.ejemplo)
+    </script>
+</body>
+</html>

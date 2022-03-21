@@ -1,0 +1,29 @@
+form{
+padding: 100px ;
+margin: 100px auto;
+background: grey;
+display: block;
+width: auto;
+}
+input{
+    margin: 6px;
+width: auto;
+}
+input::placeholder{
+    color: red;
+}
+input::selection{
+    color: rgb(0, 4, 255);
+    background: salmon;
+}
+b{
+    margin: 6px;
+width: auto;
+}
+b::before{
+    content: "me suscribi";
+}
+b::after{
+    content: "todo tendencias";
+    color: red;
+}

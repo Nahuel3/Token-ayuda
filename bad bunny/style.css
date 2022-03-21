@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    display: flex;
+    background-color: #885d5d8e;
+}
+.youtube{ 
+   color: rgb(255, 255, 255);
+   margin: 20px;
+   justify-content: right;
+}
+
+.background{
+    margin: 50px;
+    width: 90%;
+    height: 100vh;
+    background-size: cover; 
+    background-image: url(https://cronicaglobal.elespanol.com/uploads/s1/10/86/79/29/bad-bunny-disco.jpeg);
+    display: flex;
+}
+.background .spotify{
+    text-align: center;
+    margin-top: 450px;
+    margin-left: 400px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+footer{
+    background: grey;
+    padding: 25px;
+    font-size: 30px;
+}

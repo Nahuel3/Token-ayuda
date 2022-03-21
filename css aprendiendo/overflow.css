@@ -1,0 +1,24 @@
+*{
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+div {
+    margin: auto;
+    margin-top: 50px;   
+    background: grey;
+    border: 4px solid red;
+    width: 320px;
+    height: 350px;
+    
+    overflow-y: hidden;
+    
+   
+    
+}
+img{
+    width: 320px;
+    height: 350px;
+    position: relative;
+    top: 50px;
+}

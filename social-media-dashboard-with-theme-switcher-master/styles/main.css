@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+:root {
+  --Lime-Green: hsl(163, 72%, 41%);
+  --Bright-Red: hsl(356, 69%, 56%);
+  --Facebook: hsl(208, 92%, 53%);
+  --Twitter: hsl(203, 89%, 53%);
+  --Instagram: hsl(37, 97%, 70%)// hsl(329, 70%, 58%);
+  --YouTube: hsl(348, 97%, 39%);
+  --Very-Dark-Blue: hsl(230, 17%, 14%);
+  --Very-Dark-Blue: hsl(232, 19%, 15%);
+  --Dark-Desaturated-Blue: hsl(228, 28%, 20%);
+  --Desaturated-Blue: hsl(228, 34%, 66%);
+  --White: hsl(0, 0%, 100%);
+  --White: hsl(0, 0%, 100%);
+  --Very-Pale-Blue: hsl(225, 100%, 98%);
+  --Dark-Grayis-Blue: hsl(228, 12%, 44%);
+  --Very-Dark-Blue: hsl(230, 17%, 14%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+main header {
+  padding: 25px;
+  margin-bottom: 1.5rem;
+}
+
+main header h2 {
+  font-size: 17px;
+  color: grey;
+}
+
+main header .box-darkmode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  position: absolute;
+  top: 45px;
+  right: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main header .box-darkmode small {
+  position: absolute;
+  right: 65px;
+}
+
+main header .box-darkmode label {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background-color: black;
+  border-radius: 30cm;
+}
+
+main header .box-darkmode label:before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #00f7ff;
+  border-radius: 50cm;
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+main header .box-darkmode input {
+  display: none;
+}
+
+main header .box-darkmode input:checked ~ label:before {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+main .arriba {
+  width: 100%;
+  height: 1fr;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  margin: 0 auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 30px;
+}
+
+main .arriba .cards {
+  height: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(124, 134, 187, 0.171);
+}
+
+main .arriba .cards:nth-child(1) {
+  border-top: #198ff5 5px solid;
+}
+
+main .arriba .cards:nth-child(2) {
+  border-top: #1ca0f2 5px solid;
+}
+
+main .arriba .cards:nth-child(3) {
+  border-top: solid 5px #42ca19;
+}
+
+main .arriba .cards:nth-child(4) {
+  border-top: #c4032a 5px solid;
+}
+
+main .arriba .cards img {
+  position: relative;
+  top: 6px;
+  margin-right: 6px;
+}
+
+main .arriba h2, main .arriba h3, main .arriba h5 {
+  margin-top: 15px;
+}
+
+main .arriba h2 {
+  display: inline;
+  font-size: 20px;
+}
+
+main .arriba h3 {
+  font-size: 60px;
+}
+
+main .arriba h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 4px;
+  color: grey;
+  font-weight: 400;
+}
+
+main .arriba h5 {
+  font-size: 20px;
+  color: #1db489;
+}
+
+main .arriba h5:nth-child(3) {
+  color: red;
+}
+
+main .arriba h5 span {
+  position: relative;
+  margin: 0;
+  top: -11px;
+}
+
+main .red {
+  color: red;
+}
+
+main .abajo {
+  height: 1fr;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(320px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  margin: 0 auto;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  margin: 25px;
+}
+
+main .h2-volador {
+  margin-top: 35px;
+  margin-left: 25px;
+  color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+  text-align: center;
+}
+
+main .abajo-card-arriba {
+  height: 120px;
+  border: solid 2px black;
+  background-color: rgba(124, 134, 187, 0.171);
+}
+
+main .abajo-card-arriba .card-arriba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 15px;
+}
+
+main .abajo-card-arriba .card-arriba h3 {
+  color: grey;
+}
+
+main .abajo-card-arriba .card-abajo {
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+main .abajo-card-arriba .card-abajo p {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 40px;
+}
+
+main .abajo-card-arriba .card-abajo small {
+  margin-left: 110px;
+  font-size: 20px;
+  color: #1db489;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://a-static.besthdwallpaper.com/linternas-y-noche-papel-pintado-3840x2160-180_54.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    width: 100%;
+    padding-top: 20px;
+    
+}
+li{
+    list-style: none;
+    color: rgb(215, 215, 223); 
+    display: inline;
+    padding-right: 40px;
+    margin: 15px;
+    font-size: 15px;
+    
+}
+h1{
+    color: white;
+    padding-left: 40px;
+    position: absolute;
+    left: 0;
+    font-size: 15px;
+    display: inline;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    width: 550px;
+    text-align: center;
+    margin: 10px;
+}
+p{
+    color: rgb(148,147,161); 
+    margin: 10px;
+    font-size: 10px;
+}
+
+input{
+    margin-top: 30px;
+    width: 400px;
+    border-radius: 40px;
+    height: 40px;
+    text-align: center;
+    outline: none;
+    background: rgb(0,26,59);
+    border: none;
+    color: white;
+}
+input::placeholder{
+  color: rgb(148,147,161);  
+    padding-left: 25px;  
+    text-align: left;  
+}
+h3{
+    color: rgb(148,147,161); 
+    font-size: 10px;
+    position: absolute;
+    bottom:0 ;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width :550px){
+    h2{
+        width: 400px;
+    }
+  
+    
+   
+}
+@media screen and (max-width :450px){
+    h2{
+        width: 300px;
+        font-size: 25px;
+    }
+
+    h1, li{
+       margin: 5px;
+        
+       
+    }
+    
+}

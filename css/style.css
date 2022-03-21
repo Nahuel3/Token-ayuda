@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+body header {
+  background-color: black;
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 80px;
+  width: 100%;
+}
+
+body header nav a {
+  display: inline;
+  text-decoration: none;
+  margin: 30px;
+  color: white;
+}
+
+body header nav h1 {
+  position: absolute;
+  left: 0;
+  margin-left: 15px;
+  margin: 25px;
+  color: white;
+}
+
+body .parte-abajo-header {
+  background-image: url(https://www.bbva.com/wp-content/uploads/2018/03/ordenador-numeros-serie-pc-computadora-bbva-e1521716771593.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-attachment: fixed;
+}
+
+body .parte-abajo-header h1 {
+  color: white;
+  font-size: 55px;
+  padding: 10px;
+}
+
+body .parte-abajo-header p {
+  color: white;
+  font-size: 25px;
+}
+
+body section {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #313030), color-stop(70%, rgba(255, 197, 197, 0.952)), to(#ff7e4f));
+  background: linear-gradient(#313030 30%, rgba(255, 197, 197, 0.952) 70%, #ff7e4f 100%);
+}
+
+body section .section-arriba {
+  padding: 30px;
+}
+
+body section .section-arriba img {
+  width: 500px;
+  height: 500px;
+}
+
+body section .section-abajo {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 180px;
+}
+
+body section .section-abajo h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+body section .section-abajo p {
+  color: white;
+  width: 200px;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 710px) {
+  body section .section-arriba img {
+    width: 200px;
+    height: 200px;
+  }
+  body section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-abajo {
+    margin-left: 180px;
+  }
+  .section-abajo h2 {
+    width: 200px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

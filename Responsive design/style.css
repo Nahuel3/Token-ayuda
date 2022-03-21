@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* 
+.responsive{
+    background-color: rgb(175, 128, 40);
+}
+@media screen and (min-width: 400px) and (max-width:650px) {
+    .responsive {
+        background-color: red; 
+    }
+}
+@media screen and (min-width: 650px) and (max-width:850px) {
+    .responsive {
+        background-color: green; 
+    }
+}
+@media screen and (min-width: 850px) and (max-width:1200px) {
+    .responsive {
+        background-color: rgb(13, 0, 128); 
+    }
+}
+@media screen and (min-width:1200px){
+    .responsive {
+        background-color: rgb(255, 255, 255); 
+    }
+} */
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main, .aside, .footer, .header{
+    padding: 20px;
+}
+.header{
+background-color: greenyellow;
+flex-basis: 60px;
+}
+
+ .main{
+    background-color: rgb(47, 255, 255);
+    flex-grow: 2;
+    flex-basis: 300px;
+    flex-shrink: 0;   
+}
+  .aside{
+    background-color: rgb(255, 172, 47);
+    background-color: rgb(47, 255, 255);
+    flex-grow: 2;
+    flex-basis: 200px;
+    flex-shrink: 0;
+}
+ .footer{
+ background-color: rgb(255, 224, 47);
+ flex-grow: 1;
+}

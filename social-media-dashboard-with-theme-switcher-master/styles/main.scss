@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+:root {
+  --Lime-Green: hsl(163, 72%, 41%);
+  --Bright-Red: hsl(356, 69%, 56%);
+  --Facebook: hsl(208, 92%, 53%);
+  --Twitter: hsl(203, 89%, 53%);
+  --Instagram: hsl(37, 97%, 70%)// hsl(329, 70%, 58%);
+  --YouTube: hsl(348, 97%, 39%);
+  --Very-Dark-Blue: hsl(230, 17%, 14%);
+  --Very-Dark-Blue: hsl(232, 19%, 15%);
+  --Dark-Desaturated-Blue: hsl(228, 28%, 20%);
+  --Desaturated-Blue: hsl(228, 34%, 66%);
+  --White: hsl(0, 0%, 100%);
+  --White: hsl(0, 0%, 100%);
+  --Very-Pale-Blue: hsl(225, 100%, 98%);
+  
+  --Dark-Grayis-Blue: hsl(228, 12%, 44%);
+  --Very-Dark-Blue: hsl(230, 17%, 14%);
+}
+$Light-Grayish-Blue: hsl(227, 47%, 96%);
+
+* {
+  
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  header {
+    padding:25px;
+    margin-bottom:1.5rem;
+    h2 {
+      font-size: 17px;
+      color: grey;
+    }
+    
+
+    .box-darkmode{
+      display:flex;
+      justify-content:flex-end;
+      width:100%;
+      position:absolute;
+      top:45px;
+      right:50px;
+      align-items:center;
+  small{
+    position:absolute;
+    right: 65px;
+  }
+ 
+      label{
+        position: absolute;
+        width: 60px;
+        height: 30px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 30cm;
+        
+        &:before{
+        content : "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: rgb(0, 247, 255);
+        border-radius: 50cm;
+        transform: translateX(30px);
+        transition:300ms;
+      }
+    }
+     input{
+       display: none;
+       
+       &:checked ~ label:before{
+         transform: translateX(0px);
+         
+        }
+      }
+        
+   }
+  }
+  .arriba{
+    width:100%;
+    height:1fr;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+
+    margin: 0 auto;
+    grid-column-gap: 5px;
+    grid-row-gap: 30px;
+    
+    .cards{
+      
+      height: 100%;
+      border-radius:10px;
+      margin:0 auto;
+      text-align: center;
+      margin:20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: hsla(230, 32%, 61%, 0.171);
+
+      &:nth-child(1){
+        border-top:hsl(208, 92%, 53%) 5px solid;
+      }
+      
+      &:nth-child(2){
+        border-top:hsl(203, 89%, 53%) 5px solid;
+      }
+
+      &:nth-child(3){
+          border-top: solid 5px rgb(66, 202, 25);
+    }
+
+      &:nth-child(4){
+        border-top:hsl(348, 97%, 39%) 5px solid;
+      }
+
+      img{
+        position:relative;
+        top:6px;
+        margin-right:6px;
+
+      }
+      
+    }
+    
+    h2,h3,h5{
+        margin-top: 15px;
+    }
+    h2{
+        display: inline;
+        font-size: 20px;
+    }
+    h3{
+        font-size: 60px;
+    }
+    h4{
+      padding-top: 10px;
+      padding-bottom: 10px;
+        font-size: 16px;
+        letter-spacing: 4px;
+        color:grey;
+        font-weight: 400;
+
+    }
+    h5{
+
+        font-size: 20px;
+        color: hsl(163, 72%, 41%);
+
+          &:nth-child(3){
+            color:rgb(255, 0, 0);
+          }
+
+          span{
+            position: relative;
+            margin: 0;
+            top: -11px;
+          }
+    }
+   
+  }
+  .red{
+    color:red;
+  }
+  .abajo{
+
+    height: 1fr;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    margin: 0 auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin: 25px;
+    
+  }
+  .h2-volador{ 
+    margin-top: 35px;
+    margin-left: 25px;
+        color: grey;    
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 70px;
+        text-align: center;
+  }
+  .abajo-card-arriba{
+        height: 120px;
+      border: solid 2px black;
+      background-color: hsla(230, 32%, 61%, 0.171);
+      .card-arriba{
+        display:flex;
+        justify-content: space-around;
+        padding-top: 15px;
+       h3{
+        color: grey;
+       } 
+      }
+      .card-abajo{
+        height: 60%;
+        display:flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        
+        p{
+            font-size: 30px;
+            font-weight: bold;
+            padding-left: 40px;
+            
+        }
+           small{
+                margin-left: 110px;
+               font-size: 20px;
+               color: hsl(163, 72%, 41%);
+           }
+      }
+  }
+ 
+}
+
+
+
+

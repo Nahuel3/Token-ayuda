@@ -1,0 +1,149 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://img.wallpapersafari.com/desktop/1600/900/2/9/MB4DN7.png);
+}
+
+.grid {
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.parte1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile {
+  width: 500px;
+  height: 400px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.icon {
+  width: 100px;
+  height: 70px;
+  margin: 10px;
+}
+
+h1 {
+  margin: 10px;
+}
+
+.user {
+  border: none;
+  width: 250px;
+  margin: 10px;
+  background-color: transparent;
+  outline: none;
+}
+
+.pass {
+  border: none;
+  width: 250px;
+  margin: 10px;
+  outline: none;
+}
+
+a {
+  font-size: 15px;
+  margin: 5px;
+}
+
+i {
+  color: #67fd9d;
+}
+
+.login {
+  border: none;
+  margin: 10px;
+  border-radius: 15px;
+  width: 280px;
+  height: 35px;
+  background: #87d251;
+  color: white;
+  font-size: 20px;
+}
+
+.linea {
+  height: 2px;
+  background: #67fd9d;
+  width: 280px;
+}
+
+.user::-webkit-input-placeholder {
+  background: white;
+}
+
+.user:-ms-input-placeholder {
+  background: white;
+}
+
+.user::-ms-input-placeholder {
+  background: white;
+}
+
+.user::placeholder {
+  background: white;
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .profile {
+    display: none;
+  }
+  .login {
+    background-color: #67fd9d;
+  }
+}
+
+.user:hover {
+  top: -5px;
+}
+/*# sourceMappingURL=style.css.map */

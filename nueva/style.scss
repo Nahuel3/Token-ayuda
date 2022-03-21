@@ -1,0 +1,143 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.general{
+    height: 100vh;
+    width: 100%;
+  
+   
+   nav{
+       width: 100%;
+       height: 65px;
+       border-bottom: solid 4px rgba(204, 191, 191, 0.281);
+      .parteArriba{
+        display: flex;
+        height: 80px;
+        align-items: center;
+        flex-direction: row;
+       justify-content: end;
+     
+       input{
+           height: 30px;           
+           border: 4px solid rgb(226, 226, 226);
+           width: 200px;
+           margin: 0 auto ;
+           border-radius: 5px;
+       }
+       input::placeholder{
+           text-align: center;
+       }
+       i{
+           font-size: 25px;
+           margin: 15px;
+       }
+       img{
+           margin-left: 20px;
+       }
+     }
+   }
+
+   section{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+       height: 150px;
+       width: 100%;
+  .historias{
+    border: solid 2px rgb(201, 200, 200);
+    display: flex;
+    flex-direction: row;
+
+  h1{
+      font-size: 15px;
+      text-align: center;
+  }
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        margin: 15px;
+        border: solid 2px rgb(162, 255, 22);
+        border-radius: 50%;
+    }
+     }
+   }
+
+   main{
+      width: 100%;
+      
+    display: flex;
+    justify-content: center;
+    
+
+  .Contenido{
+    height: 600px;
+    width: 590px;
+    border: 2px solid rgb(201, 200, 200);
+  
+      .nombre{
+        display: flex;      
+       flex-direction: row;
+       margin: 15px;
+
+        img{
+            width: 30px;
+            height: 30px;
+            border: 2px solid rgb(162, 255, 22);
+            border-radius: 50%;
+        }
+
+        h1{
+            font-size: 20px;
+            padding-left: 10px;
+            display: flex;
+            align-items: center;
+        }
+      }
+       .parte-main{
+           img{
+            height: 440px;
+            width: 591px;
+            object-fit: cover;
+           }
+       }
+       .parte-comentario{
+           margin: 15px;
+           i{
+               font-size: 25px;
+               margin-right: 5px;
+           }
+           span{
+               color: grey;
+               font-size: 15px;
+           }
+       }
+   }
+  }
+
+
+  footer{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 150px;
+  
+        img{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            margin: 15px;
+            border: solid 2px rgb(162, 255, 22);
+            border-radius: 50%;
+        }
+      i{
+        margin: 20px;
+          font-size: 35px;
+          
+         
+      }
+  }
+}

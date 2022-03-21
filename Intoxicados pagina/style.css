@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+ 
+}
+header .background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/intoxicados-002.jpg);
+    
+}
+h1 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    color: red;
+}
+ .img1{
+    width: 300px;
+    height:300px;
+   
+
+  
+}
+main .discografia{
+    text-align: left;
+    
+  
+}
+.img2{
+    width: 300px;
+    height:190px;
+    position: absolute;
+    right: 50%;
+    top: 1060px;
+}
+h2{
+    color: rgb(255, 232, 28);
+}
+h3 {
+    
+    font-family:'Times New Roman', Times, serif ;
+    color: rgb(0, 64, 255);
+}
+ul li{
+    color: rgb(0, 0, 0);
+}
+h4{
+    font-size: 70px;
+    padding-bottom: 30px;
+    padding-left: 40%;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+audio{
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    left: 35%;
+}
+.Informacion{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.Galeria .img3{
+    margin: 5px;
+    width: 25%;
+height: 300px;
+    border: solid  rgb(68, 0, 255) 4px;
+   
+    
+    
+}
+.Galeria .img4{
+
+    width: 25%;
+height: 300px;
+    border: solid  red 4px;
+    
+    
+}
+.Galeria .img5{
+
+    width: 25%;
+height: 300px;
+    border: solid  rgb(0, 255, 0) 4px;
+    
+    
+}
+.Galeria .img6{
+margin: 5px;
+width: 25%;
+height: 300px;
+    border: solid  rgb(255, 0, 242) 4px;
+    
+    
+}
+.Galeria .img7{
+
+    width: 25%;
+    height: 300px;
+    border: solid  rgb(238, 255, 0) 4px;
+    
+    
+}
+.Galeria .img8{
+ width: 25%;
+ height: 300px;
+    border: solid  rgb(33, 122, 24) 4px;
+    
+    
+}
+
+h5{
+        font-size: 70px;
+        padding-bottom: 30px;
+        padding-left: 40%;
+}
+footer{
+  background: rgb(110, 110, 112);
+ 
+}

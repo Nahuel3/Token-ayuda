@@ -1,0 +1,15 @@
+h1 {
+    color: rgb(235, 14, 14);
+}
+h2 p {
+    color: blue;
+}
+h2{
+    color: blueviolet;
+}
+.contact-form__input:first-child{
+    color: red;
+}
+.contact-form__input--active{
+    color: blue;
+}

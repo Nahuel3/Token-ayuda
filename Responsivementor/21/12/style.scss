@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(13,26,45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .contenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 420px;
+        width: 300px;
+        background-color: rgb(21,39,61);
+        border-radius: 10px;
+        box-shadow: 15px 8px 8px 8px black;
+        img{
+            width: 250px;
+            height: 200px;
+            object-fit: cover;
+            margin-left: 25px;
+        }
+        .text{
+            h1{
+                font-size: 17px;
+                color: white;
+                padding: 10px;
+                position: relative;
+                left: 15px;
+            }
+            p{
+                font-size: 14px;
+                padding: 10px;
+                position: relative;
+                left: 15px;
+                color: rgb(108,132,164);
+            }
+        }
+
+        .text2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            h2{
+              color: rgba(0, 255, 255, 0.63);
+              font-size: 14px;
+              position: relative;
+              right: 18px;
+              padding-top: 10px;
+            }
+            p{
+                padding-top: 10px;
+                color: rgb(108,132,164);
+                font-size: 14px;
+                position: relative;
+                left: 18px;
+            }
+        }
+        .barra{
+            border-top: 2px solid rgb(105, 105, 105);
+            width: 85%;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .parte-final{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+           
+            img{
+                margin-top: 10px;
+                margin-left: 25px;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                object-fit: cover;
+               
+            }
+            h3{
+                padding-top: 10px;
+                margin-left: 15px;
+                font-size: 14px;
+                color: grey;
+            }
+            span{
+                color: white;
+            }
+        }
+    }
+}

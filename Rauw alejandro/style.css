@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+ background-color: grey;
+ font-family: 'Poppins', sans-serif;
+ overflow-x: hidden;
+}
+header .background{
+    width: 1342px;
+    height: 1250px;
+    background-image: url(img/rauw2.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100%;
+}
+h1 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 147, 184);
+}
+ .img1{
+    width: 300px;
+    height:300px;
+   
+
+  
+}
+main .discografia{
+    text-align: center;
+    
+  
+}
+.img2{
+    width: 300px;
+    height:300px;
+    display: inline-block;
+}
+.disco4{
+    width: 430px;
+    height: 300px;
+    display: inline-block;
+    object-fit: cover;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+.integrantes {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif ;
+    color: rgb(0, 64, 255);
+    font-size: 25px;
+}
+ul li{
+    color: rgb(0, 0, 0);
+}
+h4{
+    font-size: 70px;
+    padding-bottom: 30px;
+    padding-left: 40%;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+audio{
+    padding: 30px;
+    margin: 30px;
+    position: relative;
+    left: 35%;
+}
+.Informacion{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+.galeria{
+    margin: 15px;
+    padding: 5px;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.gal1{
+    width: 300px;
+    height: 300px;
+    border: solid 4px;
+    object-fit: cover;
+    margin: 5px;
+}
+.gal2{
+    width: 300px;
+    height: 300px;
+    border: solid 4px;
+    margin: 5px;
+    object-fit: cover;
+}
+.gal3{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border: solid 4px;
+    margin: 5px;
+}
+.gal4{
+    margin: 5px;
+    width: 300px;
+    object-fit: cover;
+    height: 300px;
+    border: solid 4px;
+}
+.gal5{
+    margin: 5px;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border: solid 4px;
+}
+.gal6{
+    margin: 5px;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border: solid 4px;
+}
+.gal7{
+    margin: 5px;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border: solid 4px;
+}
+.gal8{
+    margin: 5px;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border: solid 4px;
+}
+h5{
+        font-size: 70px;
+        padding-bottom: 30px;
+        padding-left: 40%;
+}
+footer{
+  background-color: red;
+ color: rgb(255, 255, 255);
+}
+nav ol li{
+    background: rgb(84, 147, 184);
+    display: inline-block;
+}
+nav ol{
+    background: rgb(84, 147, 184);
+    text-align: left;
+   
+}

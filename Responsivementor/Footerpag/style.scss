@@ -1,0 +1,385 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+// Nav abertura
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: black;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+}
+.navh1{
+    text-align: center;
+    display: inline;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    
+    padding-left: 10px;
+}
+.navtext{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+
+
+li{      
+    display: inline;
+   
+}
+
+header{
+
+    width: 100%;
+    background: linear-gradient(to left,
+     rgb(255, 255, 255) 20%,
+    rgb(160, 156, 156) 50%,
+    rgb(250, 249, 249) 100%,
+    
+    );
+
+
+h1{
+    text-align: center;
+    padding-top: 80px;
+}
+}
+.p1{
+ color: black;
+}
+
+
+// Cierre
+
+
+// Imagen del section
+section{       
+  
+
+    .logo{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+       background-size: cover;
+       background-image: url(https://i2.wp.com/tragonesperofinos.mx/wp-content/uploads/2021/01/hamburgesas.jpg?fit=1920%2C1280&ssl=1);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+    }
+    
+    h2{       
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        width: 500px;
+    }
+    
+}
+
+
+
+
+// Comiendo del menu 
+
+h2{
+    text-align: center;
+}
+
+.imagenes{
+ display: grid;
+ grid-template-columns: auto auto;
+ grid-template-rows: 1fr;
+ grid-column-gap: 50px;
+ grid-row-gap: 30px;
+ padding: 20px;
+}
+.imagenes h1{
+    text-align: center;
+}
+.imgrid{
+    object-fit: cover;    
+    width: 100%;
+    
+}
+
+.span-precio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(207, 8, 68);
+}
+
+.intro-menu{
+    text-align: center;
+    font-size: 30px;
+}
+
+.menudespegable{
+    background-color: rgb(59, 54, 54);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    
+    i{
+        position: absolute;
+        right: 0;
+        padding-right: 20px;
+        color: white;
+        
+    }
+    h4{
+        
+        display: inline;
+        padding-left: 20px;
+        color: white;
+    }
+    
+}
+.imgdespegable{
+    
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+.mostrar{
+    
+    display: block;
+    
+}
+.carta{
+   width: 100%;
+    height: 200px;
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-rows: 1fr;
+   
+   
+}
+
+// Apertura de las opiniones bajo del grid
+
+.antes-opiniones{
+    text-align: center;
+h3{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+}
+
+.opiniones-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+     h3{
+        font-size: 30px;
+        text-align: center;
+     }
+     p{
+        color: grey;
+         text-align: center;          
+        }
+    .img-personas{
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      border-radius: 50px;
+      
+    }
+    
+}
+i{
+    font-size: 20px;
+}
+.opinion-1{
+    margin: 10px;
+}
+.opinion-2{
+    margin: 10px;
+    
+}
+
+.opinion-3{
+margin: 10px;
+
+}
+.opinion-4{
+    margin: 10px;
+       
+    }
+
+
+    .google-maps {
+        
+        padding: 50px;
+        h3{
+            font-size: 40px;
+            text-align: center;
+        }      
+        .parte-ubicacion{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            flex-direction: column;
+        }
+    
+        p{
+            text-align: center;    
+            font-size: 13px;    
+            color: grey;               
+        }
+        
+        .span{
+            text-align: center;
+            color: black;
+            font-size: 30px;
+        }
+        .barra-maps{
+            height: 1px;
+            width: 200px;
+            color: rgb(241, 3, 3);
+           
+        }
+    }
+
+    
+// Comienzo historia del local
+.lugar-historia{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));;
+    grid-template-rows: 1fr;
+    padding: 30px;
+    text-align: center;
+    img{
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 200px;
+    }
+    h4{
+        text-align: center;
+        font-size: 35px;
+    }
+    p{
+        text-align: center;
+        width: 250px;
+        font-size: 20px;
+        color: grey;
+    }
+    .text-lugar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+// Comienzo footer
+
+footer{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr;
+    background-color: black;
+
+    p{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 5px;
+        font-size: 11px;
+    }
+
+
+h4{
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.lorem{
+    margin: 5px;
+    text-align: justify;
+    
+}
+
+a{
+    color: rgb(255, 255, 255);
+    
+    margin: 5px;
+    font-size: 15px;
+    
+}
+
+h4::first-letter{
+    font-size: 35px;
+}
+
+}
+
+// Hover nav
+
+
+.navtext:hover{
+    background-color: grey;
+    border-radius: 8px;
+    box-shadow: rgb(255, 255, 255) 2px 2px 10px  10px;
+}
+
+
+
+
+@media screen and (max-width:700px){ 
+   .imagenes{
+       display: flex;
+       flex-direction: column;
+   }
+   footer{
+    display: flex;
+    flex-direction: column;
+   }
+   .logo{
+       height: 100%;
+   }
+   .opiniones-main{
+       display: flex;
+       flex-direction: column;
+   }
+   iframe{
+       height: 200px;
+       width:300px;
+   }
+   .lugar-historia{
+    text-align: center;
+       display: flex;
+       flex-direction: column;
+   }
+}

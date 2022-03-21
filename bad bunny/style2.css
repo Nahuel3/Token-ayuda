@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    display: flex;
+    background-color: #885d5d8e;
+}
+.youtube{ 
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    justify-content: right;
+ }
+.background{
+    display: flex;
+} 
+img{
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+}
+p{
+    text-align: center;
+    
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    
+}
+h1::first-letter{
+    font-size: 70px;
+}
+footer{
+    background: grey;
+    padding: 25px;
+    font-size: 30px;
+}

@@ -1,0 +1,89 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Rajdhani;
+}
+.background{
+    background-image: url(img/paisaje.jpg);
+    width: 1343px;
+    height: 750px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    background-attachment: fixed;
+    
+}
+nav{
+    background: rgb(0, 0, 0);
+    display: flex;
+    
+}
+nav a{
+    color: white;
+    padding: 5px;
+    margin: auto;
+}
+h1{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    background: rgba(167, 182, 165, 0.226);
+    margin-top: 565px;
+
+}
+h3{
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(216, 27, 27);
+    font-size: 40px;
+}
+.contenedor{
+    display: grid;
+    grid-template-rows: 400px 400px   ; 
+    grid-template-columns: 400px 400px 400px ;
+    padding: 25px;
+    margin: 15px;
+}
+.contenedor img{
+    width: 350px;
+    height: 350px;
+    border: solid 3px black;
+    margin: 25px;
+    object-fit: cover;
+}
+h4{
+    padding-left: 10px;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.795);
+}
+h4::first-letter{
+    font-size: 45px;
+    
+}
+td {
+    font-size: 19px;
+    color: rgb(173, 52, 52);
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+p{
+    padding: 1%;
+    font-size: 15px; 
+}
+footer{
+    background: rgba(150, 80, 80, 0.664);
+    display: flex;
+    padding: 25px;
+    color: black;
+}
+i{
+    margin-left: 500px;
+    font-size: 22px;
+   
+}
+.fo{
+    padding: 5px;
+}
+h5{
+    font-size: 20px;
+}

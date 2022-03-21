@@ -1,0 +1,185 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #dcedfd;
+}
+
+main section {
+  margin-top: 50px;
+  width: 400px;
+  height: 250px;
+  background-image: url(https://tarjetasdecredito.com.ar/images/product/tarjeta-de-credito-bbva-mastercard-internacional.png);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+
+main section i {
+  position: relative;
+  top: 10px;
+  left: 140px;
+  font-size: 35px;
+  color: black;
+}
+
+main section .tarjeta {
+  position: relative;
+  top: 40px;
+  right: 85px;
+}
+
+main section .tarjeta p {
+  color: #9ba0b3;
+}
+
+main section .tarjeta h1 {
+  color: white;
+  padding-top: 65px;
+  font-size: 15px;
+}
+
+main section .tarjeta h2 {
+  color: white;
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+main .right {
+  display: none;
+}
+
+main .right input {
+  width: 450px;
+  height: 30px;
+  border: solid 1px #b6b3b3;
+}
+
+main .right .numTarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 30px;
+  padding-top: 60px;
+}
+
+main .right .nombreTarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+main .right .partePreVerificar {
+  padding-top: 20px;
+}
+
+main .right .partePreVerificar h3 {
+  padding-top: 20px;
+  font-size: 15px;
+  padding-left: 30px;
+  color: #44494c;
+  display: inline;
+}
+
+main .right .partePreVerificar h4 {
+  display: inline;
+  color: #44494c;
+  position: absolute;
+  right: 70px;
+  font-size: 14px;
+}
+
+main .right .parteVerificar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .right .parteVerificar .text {
+  width: 80px;
+  height: 29px;
+}
+
+main .right .parteVerificar select {
+  border: 1px solid #3b3b3b;
+  width: 160px;
+  height: 30px;
+}
+
+main .right .parteVerificar .primer {
+  margin-left: 30px;
+}
+
+main .right label {
+  color: #44494c;
+}
+
+main .right .enviar {
+  margin-left: 30px;
+  margin-top: 15px;
+  background-color: #1d4b9f;
+  border-radius: 5px;
+  color: white;
+  -webkit-box-shadow: 1px 3px 6px 1px #6592e6;
+          box-shadow: 1px 3px 6px 1px #6592e6;
+}
+
+main .aparecer {
+  display: inline;
+  position: absolute;
+  z-index: 0;
+  background-color: white;
+  top: 240px;
+  width: 500px;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */

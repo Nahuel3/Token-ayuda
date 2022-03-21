@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    height: 100vh;
+    width: 100%;
+
+form{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.4s;
+    background: linear-gradient(
+        rgb(212, 187, 187),
+        rgb(0, 0, 0)
+       
+    ); 
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        height: 350px;
+        width: 350px;
+        border-radius: 10px;
+        
+    }
+    .sobre{
+        width: 50px;
+        height: 40px;
+        
+    }
+    input{
+        border: solid 3px black;
+        margin-top: 30px;
+     
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    .usuario:focus, .pass:focus{
+        top: -20px;
+       position: relative;
+   }
+    .register{
+        margin-bottom: 15px;
+        border: none;
+        width: 150px;
+        height: 30px;
+        border-radius: 40px;
+        background-color: rgb(63, 204, 63);
+        color: white;
+    }
+    .parte-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .parte-final{
+        padding-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    .check{
+       width: 30px;
+       height: 30px;
+       margin-top: 0px;
+       margin-right: 15px;
+    }
+    }
+    .esconder{
+        position: absolute;
+        top: -350px;
+        
+    }
+  
+   
+}
+
+
+.form2{
+    
+    position: absolute;
+    top: -1000px;
+    
+    .usuario:focus, .pass:focus, .email:focus{
+        top: -20px;
+       position: relative;
+   }
+  
+}
+.farm{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+   background-color: rgba(255, 255, 255, 0.356);
+   
+
+   h1{
+       width: 200px;
+       text-align: center;
+   }
+}
+.mostrar{
+    position: absolute;
+    top: 1100px;
+    
+    transition: 0.4s;
+}
+
+i{
+   font-size: 20px;
+   
+}
+
+}

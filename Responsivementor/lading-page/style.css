@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(#ff8f70), to(#ff3d54));
+  background: linear-gradient(90deg, #ff8f70 0%, #ff3d54 100%);
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav li {
+  display: inline;
+  margin-left: 25px;
+  color: white;
+}
+
+nav h1 {
+  padding-left: 20px;
+  color: white;
+  font-size: 35px;
+}
+
+nav button {
+  border: none;
+}
+
+nav .sing {
+  position: absolute;
+  right: 0;
+  margin-right: 60px;
+  border-radius: 30px;
+  width: 70px;
+  height: 30px;
+}
+
+nav .login {
+  color: white;
+  background-color: #ff4757;
+  position: absolute;
+  right: 150px;
+}
+
+section {
+  background: -webkit-gradient(linear, left top, right top, from(#ff8f70), to(#ff3d54));
+  background: linear-gradient(90deg, #ff8f70 0%, #ff3d54 100%);
+  width: 100%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section h2 {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+section p {
+  color: white;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+section button {
+  margin-right: 15px;
+}
+
+section .learn {
+  color: white;
+  background-color: #ff6261;
+  border: none;
+  border: solid 2px white;
+  border-radius: 30px;
+  width: 120px;
+  height: 30px;
+}
+
+section .start {
+  color: #ff6261;
+  background-color: white;
+  border: none;
+  border: solid 2px white;
+  border-radius: 30px;
+  width: 120px;
+  height: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  h2 {
+    width: 500px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */

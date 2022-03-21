@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+*{
+  padding:0%;
+  margin:0%;  
+  font-family: 'Alata', sans-serif;
+  
+}
+body{
+    height: 100vh;
+    width: 100%;
+   
+
+header{
+   background-image: url(../images/desktop/image-hero.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+   
+    
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 50px;
+        width: 100%;
+        height: 100px;
+        img{
+          font-size: 35px;
+            
+        }
+        a{
+            
+            margin-top: 30px;
+            text-decoration: none;
+            
+        }
+        h1{
+            color: white;
+            font-size: 35px;
+            position: absolute;
+            left: 30px;
+            padding-left: 30px;
+            padding-top:30px ;
+        }
+        a{
+            margin-right: 15px;
+            color: rgb(206, 194, 194);
+        }
+        a:hover{
+            border-bottom: solid 2px rgb(255, 255, 255);
+           
+           
+        }
+    }
+    
+    .menu-nav{
+        display: none;
+        background-color: black;
+        
+        width: 100%;
+        height: 600px;
+        a{
+            color: white;
+            text-decoration: none;
+            width: 100%;
+            height: 600px;
+        }
+    }
+   .mostrar{   
+    display: inline;
+    
+   }
+    .parte-nav{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+        h1{
+            padding-left: 30px;
+            position: absolute;
+            left: 180px;
+            width: 630px;
+            font-size:77px;
+            color: rgb(255, 255, 255);
+            border: solid 2px white;
+            display: inline;
+        }
+    }
+}
+ 
+ section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      
+      .contenedor-section{
+         position: relative;
+         top:120px;
+         width: 480px;
+         right: 120px;
+         background-color: white;
+           
+      }
+      p{
+     padding-left: 90px;
+    background-color: white;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 40px;
+    color: grey;
+    width: 475px;
+      
+      }
+      h1{
+          padding-top: 25px;
+        padding-left: 90px;
+          background-color: white;
+         font-size: 45px;       
+         position: relative;
+         letter-spacing: 3px;
+         right: 40px;
+      }
+  }
+ 
+ 
+  main{
+      height: 100vh;
+      width: 100%;  
+  .parte-main{
+      display: flex;
+      justify-content: space-around;
+      
+      h1{
+        font-size: 55px;
+        display: inline;
+        position: relative;
+        right: 70px;
+        letter-spacing: 4px;
+        color: rgb(61, 59, 59);
+    }
+    button{
+        margin-top: 20px;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        letter-spacing: 5px;
+        color: rgb(0, 0, 0);
+        border: solid 2px rgb(0, 0, 0);
+        background-color: white;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+    }
+  }
+   .parte-grid-main{       
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    height: 100vh;
+    width: 100%;
+    .parte-img-grid{     
+        
+         
+        h1{
+            color: white;
+            letter-spacing: 5px;
+            position: relative;
+            top: 330px;
+            width: 200px;
+            padding-left: 30px;
+            
+        }
+        
+    }
+    .parte-img-grid:nth-child(1){
+        background-image: url(../images/desktop/image-deep-earth.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 260px;
+        height: 450px; 
+        margin: 15px;
+    }
+    .parte-img-grid:nth-child(2){
+        background-image: url(../images/desktop/image-night-arcade.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+        margin: 15px;
+        width: 260px;
+    }
+    .parte-img-grid:nth-child(3){
+        background-image: url(../images/desktop/image-soccer-team.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 260px;
+        height: 450px;
+        margin: 15px;
+    }
+    .parte-img-grid:nth-child(4){
+        background-image: url(../images/desktop/image-grid.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 15px;
+        width: 260px;
+        height: 450px;
+    }
+    .parte-img-grid:nth-child(5){
+        background-image: url(../images/desktop/image-from-above.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 260px;
+        height: 450px;
+        margin: 15px;
+         
+    }
+    .parte-img-grid:nth-child(6){
+        background-image: url(../images/desktop/image-pocket-borealis.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 260px;
+        height: 450px;
+        margin: 15px;
+    }
+    .parte-img-grid:nth-child(7){
+        background-image: url(../images/desktop/image-curiosity.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 260px;
+        height: 450px;
+        margin: 15px;
+    }
+    .parte-img-grid:nth-child(8){
+        background-image: url(../images/desktop/image-fisheye.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 260px;
+        height: 450px;
+        margin: 15px;
+    }
+
+   }
+  }
+  footer{
+    margin-top: 350px;
+    height: 150px;
+      width: 100%;
+      background-color: rgb(0, 0, 0);
+      color: white;
+      
+      
+      .footer-arriba{
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+         padding-top: 50px;
+         padding-bottom: 20px;
+          margin-right: 80px;
+          h1{
+            display: inline;
+            position: absolute;
+            left: 30px;
+            margin-left: 80px;
+        }
+        img{
+            margin-right: 15px;
+            transition: 0.2s;
+        }
+      }
+      .footer-abajo{
+        display: flex;
+        justify-content: left;
+        align-items: center;                     
+        background-color: black;
+        
+        h1{
+            display: inline;
+            position: absolute;
+            right: 30px;
+            margin-right: 60px;
+            font-size: 15px;
+            color: grey;
+        }
+        a{
+        position: relative;
+        left: 110px;
+        margin-right: 35px;
+        color: rgb(173, 164, 164);
+        text-decoration: none;
+        transition: 0.2s;
+        }
+      }
+      a:hover{
+        border-bottom: solid 2px white;
+    }
+    img:hover{
+        border-bottom: solid 2px white;
+    }
+  }
+  
+}
+
+@media  (max-width:720px) {
+
+    header nav a{ 
+        display: none;
+    }
+    header nav img{
+        display: block;
+        position: absolute;
+        top: 35px;
+    }
+} 
+@media  (max-width:1060px){
+    body section  {
+        flex-direction: column;
+        p{
+            width: 350px;
+            text-align: center;
+            position: relative;
+            bottom: 130px;
+            
+       
+        }
+        h1{ 
+            
+            position: relative;
+            bottom: 120px;
+
+        }
+        img{
+            padding-top: 90px;
+            
+        }
+    }
+}

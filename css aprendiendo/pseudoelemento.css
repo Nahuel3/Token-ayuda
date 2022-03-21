@@ -1,0 +1,9 @@
+.texto{
+padding: 20px;
+}
+.texto::first-line{
+    color: blue;
+}
+.texto::first-letter{
+    font-size: 313px;
+}

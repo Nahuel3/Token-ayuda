@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #f3f1f1;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav .nav-arriba {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+header nav .nav-arriba i {
+  display: none;
+  margin-right: 40px;
+  font-size: 40px;
+}
+
+header nav .nav-arriba h1 {
+  font-size: 40px;
+}
+
+header nav .nav-arriba li {
+  list-style: none;
+  display: inline;
+  padding-left: 20px;
+  color: #a3a1a1;
+  font-size: 15px;
+}
+
+header nav .nav-abajo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .nav-abajo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+header nav .nav-abajo i {
+  font-size: 25px;
+  color: #979595;
+  margin-right: 25px;
+}
+
+header .responsive {
+  display: none;
+}
+
+header .desplegar {
+  background-color: #acacac;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+header .desplegar li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+.backgrounds {
+  opacity: 0.2;
+}
+
+main .general {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: calc(100vh - 120px);
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .general .main-arriba .persona {
+  width: 450px;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+}
+
+main .general .main-arriba .galeria {
+  width: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+  height: 100px;
+}
+
+main .general .main-arriba .part-galerias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .general .main-arriba .part-galerias .galerias {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+  position: relative;
+  left: 550px;
+  margin-left: 25px;
+  bottom: 30px;
+}
+
+main .general .main-arriba .aparecer {
+  display: inline;
+}
+
+main .general .main-arriba .persona2 {
+  display: none;
+}
+
+main .general .main-arriba .mostrarse {
+  display: inline;
+  width: 550px;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+  position: relative;
+  left: 60px;
+  top: 40px;
+  z-index: 1;
+}
+
+main .general .main-arriba i {
+  display: none;
+}
+
+main .general .main-arriba .x {
+  position: relative;
+  bottom: 520px;
+  left: 45px;
+  display: inline;
+}
+
+main .general .main-abajo h2 {
+  color: orange;
+  font-size: 16px;
+}
+
+main .general .main-abajo h3 {
+  font-size: 45px;
+  width: 500px;
+  padding-top: 20px;
+}
+
+main .general .main-abajo p {
+  color: grey;
+  width: 500px;
+  padding-top: 20px;
+}
+
+main .general .main-abajo h4 {
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+main .general .main-abajo span {
+  color: #ff7300;
+  font-size: 15px;
+  background-color: #f3f3f3;
+  position: relative;
+  bottom: 5px;
+}
+
+main .general .main-abajo h5 {
+  padding-top: 10px;
+  color: #c4c2c2;
+}
+
+main .general section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 30px;
+}
+
+main .general section button {
+  color: orange;
+  background-color: #f3f3f3;
+  width: 50px;
+  font-size: 25px;
+}
+
+main .general section h6 {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+main .general section input {
+  width: 300px;
+  height: 45px;
+  background-color: #ffa43d;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .backgrounds {
+    opacity: 1;
+  }
+  .aparecer {
+    display: none;
+  }
+  main .general {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+  }
+  main .general .main-arriba .x {
+    display: none;
+  }
+  main .general .main-arriba .mostrarse {
+    display: none;
+  }
+  main .general .main-arriba .aparecer {
+    display: none;
+  }
+  main .general .main-arriba .persona {
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 0%;
+  }
+  main .general .part-galeria {
+    display: none;
+  }
+  main .general .main-abajo h4 {
+    display: inline;
+  }
+  main .general .main-abajo h5 {
+    display: inline;
+    position: relative;
+    bottom: 5px;
+    padding-left: 100px;
+  }
+  main .general section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  header nav .nav-arriba ul li {
+    display: none;
+  }
+  header nav .nav-arriba i {
+    display: inline;
+  }
+}
+/*# sourceMappingURL=style.css.map */
